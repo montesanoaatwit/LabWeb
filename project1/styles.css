@@ -1,0 +1,100 @@
+/* Add your CSS style definitions to this file */
+body {
+    margin: 0em, 4em, 0em;
+    font-family: 'Open Sans';
+    font-size: 0.9rem;
+}
+
+h1, blockquote {
+    font-family: 'Roboto Slab';
+    font-size: 2rem;
+}
+
+blockquote{
+  font-size: 1.25rem;
+}
+  
+blockquote {
+  padding: 0.5em 1em 0.5em    ;
+  border: 1px solid #ececec;
+  background-color: #f9f9f9;
+  font-size: 1.25rem;
+}
+  
+p {
+  font-size: 1rem;
+}
+  
+a {
+  text-decoration: none;
+}
+
+a[href^="http"]:not([href*="yourdomain.com"]) {
+  margin-left: 2em;
+  color: #ec8295;
+  border: 1px solid #ec8295;
+  border-radius: 5px;
+  padding: 2px 5px;
+}
+
+a[href^="http"]:not([href*="yourdomain.com"]):nth-of-type(2) {
+  margin-left: 0em;
+}
+
+a[href^="http"]:not([href*="yourdomain.com"]):hover {
+  background-color: #a9a9ba;
+  color: #9f2042;
+}
+
+article {
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  text-align: center; 
+  width: 90%; 
+  margin: 0 auto; 
+  background-color: #f9f9f9;
+}
+
+article h1 {
+  margin-bottom: 0.1em;
+  color: #9f2042; 
+}
+
+article div{
+  color: #a9a9ba;
+}
+
+#buttons{
+  text-align: left;
+}
+
+article footer{
+  text-align: left;
+  background-color: #29293a;
+}
+
+article footer p{
+  margin-left: 1.5em;
+  color: #f9f9f9;
+}
+
+article footer p:first-of-type{
+  margin-bottom: 1em;
+  padding-top: 1.5em;
+  padding-bottom: 0em;
+}
+
+article footer p:nth-of-type(2){
+  margin-top: 1em;
+  padding-top: 0em; 
+  padding-bottom: 1.5em;
+}
+
+article footer p a{
+  color: #ec8295;
+}
+
+img.hero {
+  max-width: 100%; /* make the image scale to its container */
+  height: auto; /* make the image maintain its aspect ratio */
+}
