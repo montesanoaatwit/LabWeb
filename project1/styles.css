@@ -10,11 +10,16 @@ h1, blockquote {
     font-size: 2rem;
 }
 
+h1, #details{
+  text-align: center;
+}
+
 blockquote{
   font-size: 1.25rem;
 }
   
 blockquote {
+  margin-left: 3em;
   padding: 0.5em 1em 0.5em    ;
   border: 1px solid #ececec;
   background-color: #f9f9f9;
@@ -22,6 +27,7 @@ blockquote {
 }
   
 p {
+  margin-left: 1.5em;
   font-size: 1rem;
 }
   
@@ -30,11 +36,11 @@ a {
 }
 
 a[href^="http"]:not([href*="yourdomain.com"]) {
-  margin-left: 2em;
+  margin-left: 1em;
   color: #ec8295;
   border: 1px solid #ec8295;
   border-radius: 5px;
-  padding: 2px 5px;
+  padding: 0.5em 0.5em;
 }
 
 a[href^="http"]:not([href*="yourdomain.com"]):nth-of-type(2) {
@@ -49,7 +55,7 @@ a[href^="http"]:not([href*="yourdomain.com"]):hover {
 article {
   padding-top: 1em;
   padding-bottom: 0.5em;
-  text-align: center; 
+  text-align: left; 
   width: 90%; 
   margin: 0 auto; 
   background-color: #f9f9f9;
@@ -95,6 +101,6 @@ article footer p a{
 }
 
 img.hero {
-  max-width: 100%; /* make the image scale to its container */
-  height: auto; /* make the image maintain its aspect ratio */
+  max-width: 100%;
+  height: auto;
 }
