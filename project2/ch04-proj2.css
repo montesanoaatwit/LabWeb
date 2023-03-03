@@ -13,6 +13,7 @@ body {
    box-sizing: border-box;
    background-color: #e4e7eb;
    font-weight: 300;
+   padding: 40px 50px 10px 50px;
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -33,6 +34,7 @@ section {
    text-align: center;
    display: inline-block;
    margin-right: 0em;
+   width: 300px;
 }
 
 header {
